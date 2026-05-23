@@ -1,0 +1,23 @@
+{
+  "name": "rrQuiz Backend",
+  "description": "Quiz application backend API",
+  "builder": "node",
+  "buildCommand": "npm install",
+  "startCommand": "node server.js",
+  "envVars": [
+    {
+      "key": "NODE_ENV",
+      "value": "production"
+    },
+    {
+      "key": "MONGODB_URI",
+      "value": "",
+      "description": "MongoDB connection string"
+    },
+    {
+      "key": "JWT_SECRET",
+      "value": "",
+      "description": "JWT secret key"
+    }
+  ]
+}
